@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<!--article image-->
+<img src="{{ page.image_path }}" alt="" class="img-responsive">
+
+<!--article title-->
+<h1>{{ page.name }}</h1>
+<h1 class="spacer">___</h1>
+
+<!--joined_on date-->
+<p class="article-date">Joined {{ page.joined_on | date_to_long_string }}</p>
+
+<!--article tags-->
+<p class="article-tags">{{ page.title }}</p>
+
+<!--article content-->
+<p class="article-description">{{ content }}</p>
+
+<!--share-->
+<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<h3 class="share">Share</h3>    
+		</div>
+		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-right">
+				<a href="#"><img class="social" src="/img/icon/icon-mail.png" alt="Mail"></a>
+				<a href="#"><img class="social" src="/img/icon/icon-facebook.png" alt="Facebook"></a>
+				<a href="#"><img class="social" src="/img/icon/icon-twitter.png" alt="Twitter"></a>
+				<a href="#"><img class="social" src="/img/icon/icon-google.png" alt="Google plus"></a>    
+		</div>
+</div>

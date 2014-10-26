@@ -1,0 +1,17 @@
+{{ page.category }}
+ <nav>
+		 <ul class="list-inline" id="menu">
+				 <li{% if page.collection == 'research' %} class="active"{% endif %}>
+						 <a href="/research">Research</a>
+				 </li>
+				 <li{% if page.collection == 'publications' %} class="active"{% endif %}>
+						 <a href="/publications">Publication</a>
+				 </li>
+				 <li{% if page.collection == 'people' %} class="active"{% endif %}>
+						 <a href="/people">People</a>
+				 </li>
+				 <li{% if page.collection == 'news' %} class="active"{% endif %}>
+						 <a href="/news">News</a>
+				 </li>
+		 </ul>
+ </nav>
