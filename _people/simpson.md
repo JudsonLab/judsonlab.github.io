@@ -1,7 +1,7 @@
 ---
 name: Laura Simpson
 title: Postdoc
-joined_on: 2012-06-04 12:00:00
+joined_on: 2012-06-06 12:00:00
 thumbnail_path: /img/blog/article-min-3.png
 image_path: /img/blog/banner-article-3.jpg
 email: simpson@ucsf.edu

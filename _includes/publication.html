@@ -1,0 +1,32 @@
+<!--article image-->
+<img src="{{ include.publication.image_path }}" alt="" class="img-responsive">
+
+<!--article title-->
+<h1>{{ include.publication.title }}</h1>
+<h1 class="spacer">___</h1>
+
+<!--joined_on date-->
+<p class="article-date">Published {{ include.publication.publication_year }}</p>
+
+<!--article authors-->
+<p class="article-tags">{{ include.publication.authors }}</p>
+
+<!--article content-->
+{{ include.publication.content }}
+
+<!--article tags-->
+<p class="article-tags">{{ include.publication.tags | array_to_sentence_string }}</p>
+
+
+<!--share-->
+<div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+        <h3 class="share">Share</h3>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-right">
+        <a href="#"><img class="social" src="/img/icon/icon-mail.png" alt="Mail"></a>
+        <a href="#"><img class="social" src="/img/icon/icon-facebook.png" alt="Facebook"></a>
+        <a href="#"><img class="social" src="/img/icon/icon-twitter.png" alt="Twitter"></a>
+        <a href="#"><img class="social" src="/img/icon/icon-google.png" alt="Google plus"></a>
+    </div>
+</div>

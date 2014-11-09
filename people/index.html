@@ -2,5 +2,5 @@
 layout: default
 collection: people
 ---
-We need some basic text describing people in general here.
-
+{% assign ordered_people = site.people | sort: 'joined_on' %}
+{% include person.html person=ordered_people.first %}

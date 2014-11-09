@@ -1,0 +1,40 @@
+<!--article image-->
+<img src="{{ include.news.image_path }}" alt="" class="img-responsive">
+
+<!--article title-->
+<h1>{{ include.news.title }}</h1>
+<h1 class="spacer">___</h1>
+
+<!--joined_on date-->
+<p class="article-date">{{ include.news.date | date_to_long_string }}</p>
+
+<!--article content-->
+<p class="article-description">{{ include.news.content }}</p>
+
+<!--navigation-->
+<ul class="include.newsr">
+  {% if include.news.previous.url %}
+    <li class="previous"><a href="{{ include.news.previous.url }}">&lt; Prev</a></li>
+  {% else %}
+    <li class="previous disabled"><a href="#">&lt; Prev</a></li>
+  {% endif %}
+  {% if include.news.next.url %}
+    <li class="next "><a href="{{ include.news.next.url }}">Next &gt;</a></li>
+  {% else %}
+    <li class="next disabled"><a href="#">Next &gt;</a></li>
+  {% endif %}
+</ul>
+<hr />
+
+<!--share-->
+<div class="row">
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <h3 class="share">Share</h3>
+  </div>
+  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-right">
+      <a href="#"><img class="social" src="/img/icon/icon-mail.png" alt="Mail"></a>
+      <a href="#"><img class="social" src="/img/icon/icon-facebook.png" alt="Facebook"></a>
+      <a href="#"><img class="social" src="/img/icon/icon-twitter.png" alt="Twitter"></a>
+      <a href="#"><img class="social" src="/img/icon/icon-google.png" alt="Google plus"></a>
+  </div>
+</div>

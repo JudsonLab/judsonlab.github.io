@@ -3,7 +3,8 @@
 
 <section class="blog">
 
-  {% for person in site.people %}
+  {% assign ordered_people = site.people | sort: 'joined_on' %}
+  {% for person in  ordered_people %}
 
     <!--article-->
     <div class="media">

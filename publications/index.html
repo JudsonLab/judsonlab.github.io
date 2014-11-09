@@ -2,6 +2,6 @@
 layout: default
 collection: publications
 ---
-
-We need some basic text describing publications in general here.
+{% assign ordered_publications = site.publications | sort: 'published_on' %}
+{% include publication.html publication=ordered_publications.first %}
 
