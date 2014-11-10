@@ -16,7 +16,8 @@
 
 <section class="row" id="Grid">
 
-    {% for publication in site.publications %}
+    {% assign ordered_publications = site.publications | sort: 'publication_year' %}
+    {% for publication in ordered_publications reversed %}
 
       <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6 mix {% for tag in publication.tags %}{{ tag | slugify }} {% endfor %}">
           <div class="panel panel-default item">

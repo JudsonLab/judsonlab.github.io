@@ -1,5 +1,6 @@
 <!--article image-->
-<img src="{{ include.publication.image_path }}" alt="" class="img-responsive">
+<img src="{{ include.publication.image_path }}" alt="" class="img-responsive" style="margin: auto">
+{% if include.publication.image_caption %}<i>{{ include.publication.image_caption }}</i>{% endif %}
 
 <!--article title-->
 <h1>{{ include.publication.title }}</h1>

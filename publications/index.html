@@ -2,6 +2,6 @@
 layout: default
 collection: publications
 ---
-{% assign ordered_publications = site.publications | sort: 'published_on' %}
-{% include publication.html publication=ordered_publications.first %}
+{% assign ordered_publications = site.publications | sort: 'year' %}
+{% include publication.html publication=ordered_publications.last %}
 
