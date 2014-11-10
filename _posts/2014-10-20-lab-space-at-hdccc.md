@@ -1,7 +1,7 @@
 ---
 layout: news
-title: Lab Space as HDCCC
-thumbnail_path: 
+title: Lab Space at HDCCC
+thumbnail_path:
 image_path:
 external_url:
 collection: news
