@@ -6,7 +6,7 @@ authors: Robert L Judson, Joshua E Babiarz, Monica Venere, Robert Blelloch
 thumbnail_path: /img/publications/2009-judson-thumb.png
 image_path: /img/publications/2009-judson-1.png
 research_gate_url: https://www.researchgate.net/publication/24274793_Embryonic_stem_cell-specific_microRNAs_promote_induced_pluripotency
-sharing_url: http://www.nature.com/nbt/journal/v27/n5/full/nbt.1535.html
+journal_url: http://www.nature.com/nbt/journal/v27/n5/full/nbt.1535.html
 tags:
   - GRADUATE WORK
   - IPS

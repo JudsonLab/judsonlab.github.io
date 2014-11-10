@@ -7,7 +7,7 @@ thumbnail_path: /img/publications/2010-melton-thumb.png
 image_path: /img/publications/2010-melton-1.png
 image_caption: Normal (wild type) or microRNA-null (DGCR8 -/-) ESCs with different combinations of individual miRNAs re-introduced and then stained for a marker of pluripotency.
 research_gate_url: https://www.researchgate.net/publication/41761099_Opposing_microRNA_families_regulate_self-renewal_in_mouse_embryonic_stem_cells
-sharing_url: http://www.nature.com/nature/journal/v463/n7281/full/nature08725.html
+journal_url: http://www.nature.com/nature/journal/v463/n7281/full/nature08725.html
 tags:
   - GRADUATE WORK
   - IPS

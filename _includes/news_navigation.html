@@ -10,7 +10,7 @@
         <a class="pull-left" href="{{ news.url }}">
 
             <!--article image-->
-            <img class="media-object" src="{{ news.thumbnail_path }}" alt="miniature-article">
+            <img class="media-object" src="{% if news.thumbnail_path %}{{ news.thumbnail_path }}{% else %}/img/blog/article-min-2.png{% endif %}" alt="miniature-article">
 
         </a>
         <div class="media-body">

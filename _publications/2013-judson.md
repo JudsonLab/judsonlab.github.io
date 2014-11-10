@@ -7,7 +7,7 @@ thumbnail_path: /img/publications/2013-judson-thumb.png
 image_path: /img/publications/2013-judson-1.png
 image_caption: Schematic of paper summary. miR-294 and miR-181 each sensitize fibroblasts to epigenetic reprogramming through simultaneous inhibition of ot least fourteen and eleven targets, respectively. Targets with known functional modules are depicted here.
 research_gate_url: https://www.researchgate.net/publication/256612019_MicroRNA-based_discovery_of_barriers_to_dedifferentiation_of_fibroblasts_to_pluripotent_stem_cells
-sharing_url: http://www.nature.com/nsmb/journal/v20/n10/full/nsmb.2665.html
+journal_url: http://www.nature.com/nsmb/journal/v20/n10/full/nsmb.2665.html
 tags:
   - GRADUATE WORK
   - IPS

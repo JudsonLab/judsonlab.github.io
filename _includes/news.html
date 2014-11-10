@@ -1,5 +1,7 @@
-<!--article image-->
-<img src="{{ include.news.image_path }}" alt="" class="img-responsive">
+{% if include.news.image_path %}
+  <!--article image-->
+  <img src="{{ include.news.image_path }}" alt="" class="img-responsive">
+{% endif %}
 
 <!--article title-->
 <h1>{{ include.news.title }}</h1>
@@ -9,10 +11,10 @@
 <p class="article-date">{{ include.news.date | date_to_long_string }}</p>
 
 <!--article content-->
-<p class="article-description">{{ include.news.content }}</p>
+{{ include.news.content | markdownify }}
 
 <!--navigation-->
-<ul class="include.newsr">
+<ul class="pager">
   {% if include.news.previous.url %}
     <li class="previous"><a href="{{ include.news.previous.url }}">&lt; Prev</a></li>
   {% else %}
@@ -26,15 +28,14 @@
 </ul>
 <hr />
 
-<!--share-->
-<div class="row">
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-      <h3 class="share">Share</h3>
+{% if include.news.external_url %}
+  <!--share-->
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+        <h3 class="share">External Site</h3>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-right">
+        <a href="{{ include.publication.external_url }}"><img class="social" src="/img/icon/icon-web.png" alt="External Site"></a>
+    </div>
   </div>
-  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-right">
-      <a href="#"><img class="social" src="/img/icon/icon-mail.png" alt="Mail"></a>
-      <a href="#"><img class="social" src="/img/icon/icon-facebook.png" alt="Facebook"></a>
-      <a href="#"><img class="social" src="/img/icon/icon-twitter.png" alt="Twitter"></a>
-      <a href="#"><img class="social" src="/img/icon/icon-google.png" alt="Google plus"></a>
-  </div>
-</div>
+{% endif %}

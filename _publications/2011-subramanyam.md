@@ -7,7 +7,7 @@ thumbnail_path: /img/publications/2011-subramanyam-thumb.png
 image_path: /img/publications/2011-subramanyam-1.png
 image_caption: miR-294/372 and miR-302 down-regulate TGF-beta receptor 2, TGF-beta signaling, and the TGF-beta induced epithelial to mesenchymal transition.
 research_gate_url: https://www.researchgate.net/publication/51049003_Multiple_targets_of_miR-302_and_miR-372_promote_reprogramming_of_human_fibroblasts_to_induced_pluripotent_stem_cells
-sharing_url: http://www.nature.com/nbt/journal/v29/n5/full/nbt.1862.html
+journal_url: http://www.nature.com/nbt/journal/v29/n5/full/nbt.1862.html
 tags:
   - GRADUATE WORK
   - IPS

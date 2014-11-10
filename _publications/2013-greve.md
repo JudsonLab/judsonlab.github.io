@@ -6,7 +6,7 @@ authors: Tobias S Greve, Robert L Judson, Robert Blelloch
 thumbnail_path: /img/publications/2013-greve-thumb.png
 image_path: /img/publications/2013-greve-1.png
 research_gate_url: https://www.researchgate.net/publication/251233329_microRNA_Control_of_Mouse_and_Human_Pluripotent_Stem_Cell_Behavior
-sharing_url: http://www.annualreviews.org/doi/full/10.1146/annurev-cellbio-101512-122343?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed&
+journal_url: http://www.annualreviews.org/doi/full/10.1146/annurev-cellbio-101512-122343?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed&
 tags:
   - REVIEWS
   - IPS

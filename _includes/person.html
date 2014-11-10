@@ -18,13 +18,15 @@
 
 <!--share-->
 <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-        <h3 class="share">Share</h3>
-    </div>
-    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-right">
-        <a href="#"><img class="social" src="/img/icon/icon-mail.png" alt="Mail"></a>
-        <a href="#"><img class="social" src="/img/icon/icon-facebook.png" alt="Facebook"></a>
-        <a href="#"><img class="social" src="/img/icon/icon-twitter.png" alt="Twitter"></a>
-        <a href="#"><img class="social" src="/img/icon/icon-google.png" alt="Google plus"></a>
-    </div>
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+    <h3 class="share">External Sites</h3>
+  </div>
+  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-right">
+    {% if include.person.research_gate_url %}
+      <a href="{{ include.person.research_gate_url }}"><img class="social" src="/img/icon/icon-research-gate.png" alt="Research Gate"></a>
+    {% endif %}
+    {% if include.person.linkedin_url %}
+      <a href="{{ include.person.linkedin_url }}"><img class="social" src="/img/icon/icon-linkedin.png" alt="LinkedIn"></a>
+    {% endif %}
+  </div>
 </div>

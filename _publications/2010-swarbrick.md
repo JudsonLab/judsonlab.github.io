@@ -7,7 +7,7 @@ thumbnail_path: /img/publications/2010-swarbrick-thumb.png
 image_path: /img/publications/2010-swarbrick-1.png
 image_caption: Kaplan-Meier survival curves of event-free survival in patients with MYCN amplification neuroblastoma, dividided in miR-380-5p high and low subgroups.
 research_gate_url: https://www.researchgate.net/publication/46427978_miR-380-5p_represses_p53_to_control_cellular_survival_and_is_associated_with_poor_outcome_in_MYCN-amplified_neuroblastoma
-sharing_url: http://www.nature.com/nm/journal/v16/n10/abs/nm.2227.html
+journal_url: http://www.nature.com/nm/journal/v16/n10/abs/nm.2227.html
 tags:
   - MICRORNA
   - CANCER

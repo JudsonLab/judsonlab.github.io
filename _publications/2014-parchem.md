@@ -7,7 +7,7 @@ thumbnail_path: /img/publications/2014-parchem-thumb.png
 image_path: /img/publications/2014-parchem-1.png
 image_caption: miR-290 cluster (red) and miR-302 cluster (green) expression during mouse embryonic development. Cells within dotted line are embryonic tissue and outside of dotted line are extraembryonic tissue. Sorting experiments confirmed that the yellow represents expression of both clusters in the same cell.
 research_gate_url: https://www.researchgate.net/publication/260840645_Two_miRNA_Clusters_Reveal_Alternative_Paths_in_Late-Stage_Reprogramming
-sharing_url: http://www.sciencedirect.com/science/article/pii/S1934590914000514
+journal_url: http://www.sciencedirect.com/science/article/pii/S1934590914000514
 tags:
   - GRADUATE WORK
   - IPS
