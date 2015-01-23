@@ -38,15 +38,16 @@
                   <p class="item-category">{{ publication.journal }}</p>
 
                   <!--work short description-->
-                  <p class="item-description">{{ publication.authors }}</p>
-                  <hr>
+                  <p class="item-description">{{ publication.authors | truncate: 140 }}</p>
 
-                  <!--work tags-->
+                <!--
+                  <hr>
                   <p class="item-tags">
                     {% for tag in publication.tags %}
                       <a href="#" data-filter="{{ tag | slugify }}">{{ tag | slugify }}</a>{% unless forloop.last %} |{% endunless %}
                     {% endfor %}
                   </p>
+                -->
 
               </div>
           </div>

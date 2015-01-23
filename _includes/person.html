@@ -28,5 +28,8 @@
     {% if include.person.linkedin_url %}
       <a href="{{ include.person.linkedin_url }}"><img class="social" src="/img/icon/icon-linkedin.png" alt="LinkedIn"></a>
     {% endif %}
+    {% if include.person.email %}
+      <a href="mailto: {{ include.person.email}}"><img class="social" src="/img/icon/icon-mail.png" alt="Email"></a>
+    {% endif %}
   </div>
 </div>

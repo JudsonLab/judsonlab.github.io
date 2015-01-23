@@ -7,7 +7,7 @@
 <h1 class="spacer">___</h1>
 
 <!--joined_on date-->
-<p class="article-date">Published {{ include.publication.publication_year }}</p>
+<p class="article-date">Published {{ include.publication.publication_year }} in {{ include.publication.journal }}</p>
 
 <!--article authors-->
 <p class="article-tags">{{ include.publication.authors }}</p>
@@ -22,14 +22,14 @@
 <!--share-->
 <div class="row">
   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-    <h3 class="share">Read</h3>
-  </div>
-  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-right">
-    {% if include.publication.research_gate_url %}
-      <a href="{{ include.publication.research_gate_url }}"><img class="social" src="/img/icon/icon-research-gate.png" alt="Research Gate"></a>
-    {% endif %}
-    {% if include.publication.journal_url %}
-      <a href="{{ include.publication.journal_url }}"><img class="social" src="/img/icon/icon-web.png" alt="Journal"></a>
-    {% endif %}
+    <h3 class="share">
+      Read:
+      {% if include.publication.research_gate_url %}
+        <a href="{{ include.publication.research_gate_url }}"><img class="social" src="/img/icon/icon-research-gate.png" alt="Research Gate"></a>
+      {% endif %}
+      {% if include.publication.journal_url %}
+        <a href="{{ include.publication.journal_url }}"><img class="social" src="/img/icon/icon-web.png" alt="Journal"></a>
+      {% endif %}
+    </h3>
   </div>
 </div>
