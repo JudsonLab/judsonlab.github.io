@@ -1,8 +1,8 @@
 ---
 layout: news
 title: Lab Space at HDCCC
-thumbnail_path:
-image_path:
+thumbnail_path: /img/blog/space_thumb.jpg
+image_path: /img/blog/space.jpg
 external_url:
 collection: news
 categories: news

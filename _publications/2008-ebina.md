@@ -5,7 +5,7 @@ publication_year: 2008
 authors: Hirotaka Ebina, Atreyi Ghatak Chatterjee, Robert L Judson, Henry L Levin
 thumbnail_path: /img/publications/2008-ebina-thumb.png
 image_path: /img/publications/2008-ebina-1.png
-image_caption: miR-290 cluster (red) and miR-302 cluster (green) expression during mouse embryonic development. Cells within dotted line are embryonic tissue and outside of dotted line are extraembryonic tissue. Sorting experiments confirmed that the yellow represents expression of both clusters in the same cell.
+image_caption:
 research_gate_url: https://www.researchgate.net/publication/5454622_The_GP%28YF%29_domain_of_TF1_integrase_multimerizes_when_present_in_a_fragment_and_substitutions_in_this_domain_reduce_enzymatic_activity_of_the_full-length_protein
 journal_url: http://www.jbc.org/cgi/pmidlookup?view=long&pmid=18397885
 tags: []

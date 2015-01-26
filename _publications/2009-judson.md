@@ -14,7 +14,7 @@ tags:
 
 layout: publication
 ---
-This paper reports my first exploration into the use of microRNAs to induce transitions in cells state. Using the Yamanaka-strategy, I asked whether miRNAs that were highly and specifically expressed in ESCs could aid in the reprogramming of differentiated cells into iPSCs. We found that miRNAs from the miR-302 and miR-290 clusters could replace cMyc in the Oct4/Sox2/Klf4/cMyc cocktail of transcription factors to induce full de-differentiation in mouse fibroblasts. Interestingly, the microRNAs also conferred more specificity to the transition as compared to cMyc, and did not result in partially reprogrammed colonies or transformed cells.
+This paper reports my first exploration into the use of microRNAs to induce transitions in cells state. Using the Yamanaka-strategy, I asked whether miRNAs that were highly and specifically expressed in ESCs could aid in the reprogramming of differentiated cells into iPSCs. We found that miRNAs from the miR-302 and miR-290 clusters could replace cMyc in the Oct4/Sox2/Klf4/cMyc cocktail of transcription factors and induce full de-differentiation of mouse fibroblasts. Interestingly, the microRNAs also conferred more specificity to the transition as compared to cMyc, and did not result in partially reprogrammed colonies or transformed cells.
 
 <table align="center">
   <tr>

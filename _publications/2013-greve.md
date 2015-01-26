@@ -14,6 +14,6 @@ tags:
 
 layout: publication
 ---
-This review explores the rapidly expanding intersection of microRNA biology and pluripotency, with specific focuses on microRNA regulation of i) early mammalian development, ii) pluripotent stem cell maintenance & differentiation, and iii) somatic cell reprogramming. My major regret is that this was published several months before our NSMB paper, so the miR-181 family and about two dozen validated ESCC & miR-181 targets are missing from Figure 4. Then again, I’m not sure how Tobi would have fit everything into the schematic, if that data had already been available.
+This review explores the rapidly expanding intersection of microRNA biology and pluripotency, with specific focuses on microRNA regulation of i) early mammalian development, ii) pluripotent stem cell maintenance & differentiation, and iii) somatic cell reprogramming. Figure 4 shown above needs updated with the miR-181 family and about two dozen validated ESCC & miR-181 targets.
 
 <img src="/img/publications/2013-greve-2.png" alt="" class="img-responsive" style="margin: auto">

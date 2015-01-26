@@ -2,7 +2,7 @@
 title: miR-380-5p represses p53 to control cellular survival and is associated with poor outcome in MYCN-amplified neuroblastoma
 journal: Nature Medicine
 publication_year: 2010
-authors: Alexander Swarbrick, Susan L Woods, Alexander Shaw, Asha Balakrishnan, Yuwei Phua, Akira Nguyen, Yvan Chanthery, Lionel Lim, Lesley J Ashton, Robert L Judson, [......], Murray D Norris,Peter Lengyel, Christopher S Hackett, Thomas Preiss, Albert Chetcuti, Christopher S Sullivan, Eric G Marcusson, William Weiss,Noelle L'Etoile, Andrei Goga
+authors: Alexander Swarbrick, Susan L Woods, Alexander Shaw, Asha Balakrishnan, Yuwei Phua, Akira Nguyen, Yvan Chanthery, Lionel Lim, Lesley J Ashton, Robert L Judson, Noelle Huskey, Robert Blelloch, Michelle Haber, Murray D Norris,Peter Lengyel, Christopher S Hackett, Thomas Preiss, Albert Chetcuti, Christopher S Sullivan, Eric G Marcusson, William Weiss,Noelle L'Etoile, Andrei Goga
 thumbnail_path: /img/publications/2010-swarbrick-thumb.png
 image_path: /img/publications/2010-swarbrick-1.png
 image_caption: Kaplan-Meier survival curves of event-free survival in patients with MYCN amplification neuroblastoma, dividided in miR-380-5p high and low subgroups.
@@ -15,4 +15,4 @@ tags:
 
 layout: publication
 ---
-This mammoth report was the consequence of a multi-lab collaboration spearheaded by Alex, Susie and Andrei. They identified a novel oncomir - miR-380-5p, which inhibits p53 expression, thereby protecting against apoptosis. The microRNA cooperates with other oncogenes to transform cells, and it’s expression is correlated with poor outcome in subsets of neuroblastomas. Interesting, like other identified oncomirs, miR-380-5p is also normally expressed in ESCs - suggesting that neurblastoma progression is accompanied by stabilization of programs normally found early in development.
+This mammoth report was the consequence of a multi-lab collaboration spearheaded by Alex Swarbrick, Susie Woods and Andrei Goga. They identified a novel oncomir - miR-380-5p - which inhibits p53 expression, thereby protecting against apoptosis. The microRNA cooperates with other oncogenes to transform cells, and it’s expression is correlated with poor outcome in subsets of neuroblastomas. Interesting, like other identified oncomirs, miR-380-5p is also normally expressed in ESCs - suggesting that neurblastoma progression is accompanied by stabilization of programs normally found early in development.

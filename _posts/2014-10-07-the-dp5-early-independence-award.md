@@ -1,7 +1,7 @@
 ---
 layout: news
 title: The DP5 Early Independence Award
-thumbnail_path:
+thumbnail_path: /img/blog/EIA.png
 image_path: 
 external_url:
 collection: news
