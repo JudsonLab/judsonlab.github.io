@@ -37,7 +37,9 @@
                   <a href="{{ publication.url }}"><h4 class="item-title">{{ publication.title }}</h4></a>
 
                   <!--work category-->
-                  <p class="item-category">{{ publication.journal }}</p>
+                  <p class="item-category">{{ publication.journal }}
+
+                   {{ publication.publication_year }}</p>
 
                   <!--work short description-->
                   <p class="item-description">{{ publication.authors | truncate: 140 }}</p>
