@@ -2,35 +2,43 @@
 layout: default
 ---
 
-# Regulation of Cell State Stability
-
-Our lab is interested in identifying and characterizing factors that stabilize cell state. Each cell in the human body occupies a specific functional state based upon its location, developmental history, environment, and molecular landscape. Alterations to these factors can destabilize a cell’s molecular program and result in the transition from one functional state to another. Misregulation of cell state can be dangerous for the organism, such as in tumorigenesis
-
-<img src="/img/home2.jpg" alt="Home2" class="img-responsive" style="max-width: 70%; margin: auto;">
-
-<br><br><br><br>
-
-
-#### A marriage of many factors
-
-We focus on characterizing a variety of factors that alter cell state - such as irreversible genetic mutations, shifts in the microenvironment, or stochastic bursts in transcription. We analyze both the individual contribution of each alteration, as well as how these events come together to influence cell state. 
+> What I cannot create, I do not understand. <br />
+> Richard Feynman
 
 <img src="/img/home.jpg" alt="Home" class="img-responsive" style="max-width: 70%; margin: auto;">
 
+# Engineering Melanoma Brick by Brick
+
+The development and progression of melanoma is an extraordinary complex process. Decades of research have revealed dozens of molecular changes and interactions critical for the transition – from point mutations to epigenetic reprogramming to cell-cell interactions.  However, no single one of these events provides us with the necessary knowledge to invariably prevent or predict the development of the disease or to abolish it once it has progressed.   
+The above quote by Richard Feynman applies equally as well to cancer biology as it does to lecturing on theoretical physics or rebuilding a car engine. Our mission is to move toward a complete understanding of human melanoma by engineering its progression in vitro, piece by piece, inside and out, and use this knowledge to drive discoveries in prevention, diagnostics & treatment. We take a “bedside-to-bench-to-bedside” approach, learning from clinical observations then working to reconstruct both the observed three-dimensional microenvironment in which the cancer resides as well as the cancer’s genome. 
+We use then these models to:
+
+- Ask, on a single cell level, what is the oncogenic penetrance of a particular mutation?
+- Define the factors that drive or stabilize functional gene networks including:
+<br />
+o	Transcription Factors
+<br />
+o	microRNAs
+<br />
+o	lncRNAs
+- Investigate the role of stochasticity in melanoma progression
+
+
+<img src="/img/home2.jpg" alt="Home2" class="img-responsive" style="max-width: 70%; margin: auto;">
+
+
+
+<br><br><br><br>
 <br><br><br><br>
 
 
-#### MicroRNA regulation of stability
 
-
-One major focus is the role of non-coding microRNAs, which are regulators of gene expression. The acquisition and diversification of microRNA coding regions in the genome paralleled the development and stratification of complex body plans, suggesting a critical role for these sequences in the differentiation and stability of specific tissues. We and others have demonstrated that microRNAs confer robustness onto cell state - they can both stabilize phenotypes associated with the cell type of origin, or, conversely, destabilize phenotypes associated with other cell types. As buffers of cell state, the study of microRNAs and the genetic networks they regulate is a valuable approach for dissecting the mechanisms of both in vitro cell state manipulation (reprogramming, stem cell differentiation) and human diseases involving phenotype switching (tumorigenesis). 
-
-<br><br><br><br>
-<br><br><br><br>
+The Judson lab is part of the Department of Dermatology at the University of California, San Francisco and is located in the Helen Diller Family Comprehensive Cancer Center on the Mission Bay Campus.
 
 <img src="/img/home3.jpeg" alt="Home3" class="img-responsive" style="max-width: 70%; margin: auto;">
 
-The Judson lab is part of the Department of Dermatology at the University of California, San Francisco and is located in the Helen Diller Family Comprehensive Cancer Center on the Mission Bay Campus.
+<br><br><br><br>
+<br><br><br><br>
 
 The Judson lab is currently funded by the [Sander Fellows Program](http://fellows.ucsf.edu/), the [NIH DP5 Early Independence Award](http://commonfund.nih.gov/earlyindependence/index), the UCSF Department of Dermatology & the [UCSF Research Allocation Program](http://rap.ucsf.edu/).
 
