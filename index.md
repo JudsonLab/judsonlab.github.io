@@ -45,9 +45,6 @@ The Judson lab is part of the Department of Dermatology at the University of Cal
 
 <br><br><br><br>
 
-# Seeking Postdocs and Students
-
-We are actively recruiting postdocs and students for projects in cell and tissue engineering, microRNA profiling, microRNA-based gene interaction mapping, and other aspects of melanoma progression, both bench and bioinformatic. Interested applicants should contact Dr. Judson. 
 
 <br><br><br><br>
 
