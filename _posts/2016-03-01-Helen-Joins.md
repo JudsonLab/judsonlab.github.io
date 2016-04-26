@@ -1,7 +1,7 @@
 ---
 layout: news
 title: Helen Arrives!
-thumbnail_path:  /img/people/Helen_thumb2.jpg
+thumbnail_path:  /img/people/Helen_Thumb2.jpg
 image_path: /img/people/Helen2.jpg
 external_url:
 collection: news
