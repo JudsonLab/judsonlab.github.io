@@ -2,12 +2,13 @@
 title: High accuracy label-free classification of single cell kinetic states from holographic cytometry of human melanoma cells.
 journal: Scientific Reports accepted
 publication_year: 2017
-authors: Hejna M, Jorpaur A, Song JS, Judson RL.
+authors: Miro Hejna, Aparna Jorpaur, Jun Song, Robert L Judson.
 thumbnail_path: /img/publications/2017-Hejna-thumb.png
 image_path: /img/publications/2017-Hejna-1.png
 image_caption:  Digital holographic images of different cell state transitions.
 research_gate_url: 
 journal_url: 
+biorxiv_url: http://www.biorxiv.org/content/early/2017/04/14/127449
 tags:
   - IPS
   - COLLABORATIONS
