@@ -3,7 +3,7 @@
 
 <section class="blog">
 
-  {% assign ordered_people = site.people | sort: 'joined_on' %}
+  {% assign ordered_people = site.people | where: 'alumni', false | sort: 'joined_on' %}
   {% for person in  ordered_people %}
 
     <!--article-->
@@ -23,11 +23,43 @@
             <p class="article-category">{{ person.title }}</p>
 
             <!--article date-->
-            <p class="article-date">Joined {{ person.joined_on | date_to_long_string }}</p>
+            <p class="article-date">Joined {{ person.joined_on | date:"%B %-d, %Y" }}</p>
 
         </div>
     </div>
 
   {% endfor %}
+
+  <div class="media">
+    <h2>Alumni</h2>
+  </div>
+
+  {% assign ordered_people = site.people | where: 'alumni', true | sort: 'joined_on' %}
+  {% for person in  ordered_people %}
+
+    <!--article-->
+    <div class="media">
+        <a class="pull-left" href="{{ person.url }}">
+
+            <!--article image-->
+            <img class="media-object" src="{{ person.thumbnail_path }}" alt="miniature-article">
+
+        </a>
+        <div class="media-body">
+
+            <!--article title-->
+            <h4 class="media-heading">{{ person.name }}</h4>
+
+            <!--article category-->
+            <p class="article-category">{{ person.title }}</p>
+
+            <!--article date-->
+            <p class="article-date">Joined {{ person.joined_on | date:"%B %-d, %Y" }} &amp; Left {{ person.left_on | date:"%B %-d, %Y" }}</p>
+
+        </div>
+    </div>
+
+  {% endfor %}
+
 
 </section>

@@ -19,7 +19,7 @@
             <h4 class="media-heading">{{ news.title }}</h4>
 
             <!--article category-->
-            <p class="article-date">{{ news.date | date_to_long_string }}</p>
+            <p class="article-date">{{ news.date | date:"%B %-d, %Y" }}</p>
 
             <!--article short description-->
             <p class="article-description">{{ news.summary }}</p>
