@@ -5,7 +5,7 @@ summary: Donec suscipit mollis dapibus. Quisque non semper risus, vitae fringill
 thumbnail_path: /img/blog/article-min-1.png
 image_path: /img/blog/banner-article-1.jpg
 people:
-  - Robert Bell
+  - Robert L Judson-Torres
   - Laura Simpson
 publications:
   - Something Awesome We Discovered
