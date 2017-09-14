@@ -7,7 +7,7 @@
 
 {% if include.person.joined_on %}
   <!--joined_on date-->
-  <p class="article-date">Joined {{ include.person.joined_on | date_to_long_string }}</p>
+  <p class="article-date">Joined {{ include.person.joined_on | date:"%B %-d, %Y" }}{% if include.person.left_on %} &amp; Left {{ include.person.left_on | date:"%B %-d, %Y" }}{% endif %}</p>
 {% endif %}
 
 <!--article tags-->

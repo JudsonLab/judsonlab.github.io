@@ -8,7 +8,7 @@
 <h1 class="spacer">___</h1>
 
 <!--joined_on date-->
-<p class="article-date">{{ include.news.date | date_to_long_string }}</p>
+<p class="article-date">{{ include.news.date | date:"%B %-d, %Y" }}</p>
 
 <!--article content-->
 {{ include.news.content | markdownify }}
