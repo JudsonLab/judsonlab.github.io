@@ -7,7 +7,7 @@ thumbnail_path: /img/publications/2017-Hejna-thumb.png
 image_path: /img/publications/2017-Hejna-1.png
 image_caption:  Digital holographic images of different cell state transitions.
 research_gate_url: 
-journal_url: 
+journal_url: http://rdcu.be/v1Zq
 biorxiv_url: http://www.biorxiv.org/content/early/2017/04/14/127449
 tags:
   - IPS
