@@ -10,7 +10,6 @@ research_gate_url:
 journal_url: http://rdcu.be/v1Zq
 biorxiv_url: http://www.biorxiv.org/content/early/2017/04/14/127449
 tags:
-  - IPS
   - COLLABORATIONS
   - CANCER
   - MELANOMA
